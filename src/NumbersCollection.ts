@@ -8,6 +8,7 @@ export class NumbersCollection {
   compare(leftIndex: number, rightIndex: number): boolean {
     return this.data[leftIndex] > this.data[rightIndex];
   }
+
   swap(leftIndex: number, rightIndex: number): void {
     const leftHand = this.data[leftIndex];
     this.data[leftIndex] = this.data[rightIndex];
